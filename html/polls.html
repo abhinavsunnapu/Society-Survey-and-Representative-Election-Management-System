@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polls</title>
+    <link rel="stylesheet" href="../css/survey.css">
+</head>
+<body>
+    <header><img src="../images/image.png" alt="Logo" width="120" />
+        Survey and Representative Election Management System    
+    </header>
+    <main>
+        <h2>Active Polls</h2>
+        <p>Here you can find the active polls related to the society. Please participate and share your opinions.</p>
+        <form>
+            <select name="polls" id="polls">
+                <option value="poll1">Poll 1: Should we have a community garden?</option>
+                <option value="poll2">Poll 2: Do you support the new parking regulations?</option>
+                <option value="poll3">Poll 3: Should we organize a community event this year?</option>
+            </select>
+            <label for="Poll title" >Poll title:</label>
+            <input type="text" id="Poll title" name="Poll title" required>
+            <label for="Poll description">Poll description:</label>
+            <input type="text" id="Poll description" name="Poll description" required>
+            <label for="start date and end date" >Start date and end date:</label>
+            <input type="date" id="start date and end date" name="start date and end date" required>
+            <label for ="Active/Inactive">Active/Inactive:</label>
+            <input type="text" id="Active/Inactive" name="Active/Inactive" required>
+            <button type="submit">Submit</button>
+        </form>
+            
+    </main>
+    
+</body>
+</html>
